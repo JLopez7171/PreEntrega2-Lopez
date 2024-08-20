@@ -91,7 +91,7 @@ header a{
 }
 .productos-contenedor div{
     margin: 20px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.425);
     width: 350px;
     height: 500px;
     background-color: #ffffff;
@@ -179,16 +179,28 @@ header a{
     "menu productos productos"
     "menu productos productos"
     "menu productos productos"
-    "menu productos productos"
-    "menu productos productos"
     "menu productos productos";
-    grid-template-columns: 250px;
+    grid-template-columns: 150px;
     grid-auto-rows: 250px;
 }
 .menu-productos{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: menu;
     background-color: #734e3d;
+}
+.menu-productos nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+.menu-productos nav ul li a{
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    padding: 6px 10px;
 }
 .productos-contenedor-guitarras{
     display: flex;
@@ -308,5 +320,37 @@ footer .footer-contenedor-iconos .iconos{
         font-size: 40px;
         border: 3px, solid, black;
         padding: 10px;
+    }
+}
+@media screen and (max-width:542px){
+    .productos-contenedor-guitarras div{
+        width: 150px;
+        height: 200px;
+    }
+    .productos-contenedor-guitarras div h3{
+        font-size: 10px;
+    }
+    .productos-contenedor-guitarras div img{
+        height: 150px;
+    }
+    .contenedor-grilla-guitarras-bajos{
+        grid-template-columns: 125px;
+    }
+}
+@media screen and (max-width:435px){
+    footer h3{
+        font-size: 28px;
+    }
+    .footer-contenedor-iconos h5{
+        font-size: 15px;
+    }
+    .productos-contenedor div{
+        height: 350px;
+    }
+    .productos-contenedor div img{
+        height: 250px;
+    }
+    .guitarra-producto{
+        object-fit: cover;
     }
 }
