@@ -14,7 +14,7 @@ body{
 }
 /**?---Header--**/
 header{
-    background-color: #a7745d;
+    background-color: #F7DCB9;
     color: #000000;
     padding: 10px;
     display: flex;
@@ -30,11 +30,11 @@ header a{
 }
 
 .fondo-navbar{
-    background-color: #a7745d;
+    background-color: #F7DCB9;
 }
 .dropdown-menu{
-    background-color: #a7745d !important;
-    --bs-dropdown-link-hover-bg: #734e3d !important;
+    background-color: #F7DCB9 !important;
+    --bs-dropdown-link-hover-bg: #DEAC80 !important;
 }
 /**----Main----**/
 /*
@@ -72,6 +72,13 @@ header a{
     display: none;
 }
     */
+.carousel-caption h2{
+    font-size: 45px;
+}
+.carousel-caption h3{
+    font-size: 25px;
+    color: brown;
+}
 .productos{
     width: auto;
     text-align: center;
@@ -79,7 +86,7 @@ header a{
     height: auto
 }
 .productos h2{
-    background-color: #a7745d;
+    background-color: #F7DCB9;
     color: #000000;
     padding: 20px;
 }
@@ -119,7 +126,7 @@ header a{
     text-align: center;
 }
 .catalogo h2{
-    background-color: #a7745d;
+    background-color: #F7DCB9;
     color: #000000;
     padding: 20px;
 }
@@ -188,11 +195,10 @@ header a{
     flex-direction: column;
     align-items: center;
     grid-area: menu;
-    background-color: #734e3d;
+    background-color: #DEAC80;
 }
-.menu-productos nav ul li{
-    list-style: none;
-    margin: 10px;
+.bg-body-tertiary{
+    background-color: #DEAC80 !important;
 }
 .menu-productos nav ul li a{
     display: block;
@@ -201,6 +207,17 @@ header a{
     color: #000000;
     width: 100%;
     padding: 6px 10px;
+}
+.sidebar-logo a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.sidebar-item{
+    text-decoration: none;
+    list-style: none;
+}
+.sidebar-footer a{
+    text-decoration: none;
 }
 .productos-contenedor-guitarras{
     display: flex;
@@ -228,7 +245,7 @@ header a{
 .productos-contenedor-guitarras div p a{
     text-decoration: none;
     color: #ffffff;
-    background-color: #734e3d;
+    background-color: #DEAC80;
     padding: 8px;
 }
 .productos-contenedor-guitarras div p a:hover{
@@ -258,7 +275,7 @@ footer{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: #a7745d;
+    background-color: #F7DCB9;
 }
 footer h3{
     display: inline-block;
