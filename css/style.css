@@ -190,7 +190,7 @@ header a{
     "menu productos productos"
     "menu productos productos";
     grid-template-columns: 150px;
-    grid-auto-rows: 250px;
+    grid-auto-rows: auto;
 }
 .menu-productos{
     display: flex;
@@ -198,6 +198,9 @@ header a{
     align-items: center;
     grid-area: menu;
     background-color: #DEAC80;
+    height: auto;
+    position: sticky;
+    top: 0;
 }
 .bg-body-tertiary{
     background-color: #DEAC80 !important;
@@ -249,7 +252,8 @@ header a{
     text-decoration: none;
     color: #ffffff;
     background-color: #B5C18E;
-    padding: 8px;
+    font-size: 12px;
+    padding: 6px;
 }
 .productos-contenedor-guitarras div p a:hover{
     color: #6295A2;
@@ -273,7 +277,12 @@ header a{
     margin: 10px;
 }
 /**!---FOOTER---**/
-
+.footer-instrumentos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7DCB9;
+    margin: 0;
+}
 footer{
     margin-top: 20px;
     display: flex;
