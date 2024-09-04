@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.productos-contenedor-guitarras div p a, .productos-contenedor-teclados div p a, .productos-contenedor-percusion div p a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #B5C18E;
+  font-size: 12px;
+  padding: 6px; }
+
 /**!---RESET--- **/
 * {
   margin: 0;
@@ -80,7 +87,7 @@ header {
 .catalogo {
   text-align: center; }
   .catalogo h2 {
-    background-color: #F7DCB9;
+    background-color: #DEAC80;
     color: #000000;
     padding: 20px; }
 
@@ -188,13 +195,6 @@ header {
   width: 100%;
   height: 250px; }
 
-.productos-contenedor-guitarras div p a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #B5C18E;
-  font-size: 12px;
-  padding: 6px; }
-
 .productos-contenedor-guitarras div p a:hover {
   color: #6295A2;
   transition: all .1s; }
@@ -259,13 +259,6 @@ header {
 .productos-contenedor-teclados div img {
   width: 100%;
   height: 250px; }
-
-.productos-contenedor-teclados div p a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #B5C18E;
-  font-size: 12px;
-  padding: 6px; }
 
 .productos-contenedor-teclados div p a:hover {
   color: #6295A2;
@@ -332,29 +325,21 @@ header {
   width: 100%;
   height: 250px; }
 
-.productos-contenedor-percusion div p a {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #B5C18E;
-  font-size: 12px;
-  padding: 6px; }
-
 .productos-contenedor-percusion div p a:hover {
   color: #6295A2;
   transition: all .1s; }
 
 /*?---Pagina contacto---*/
 .hero-contacto {
+  background-color: #DEAC80;
   width: auto;
   text-align: center;
   align-items: center;
-  height: auto; }
-
-.hero-contacto h2 {
-  color: #000000;
-  display: inline-block;
-  padding: 8px;
-  font-size: 30px; }
+  height: auto h2;
+    height-color: #000000;
+    height-display: inline;
+    height-padding: 8px;
+    height-font-size: 30px; }
 
 .formulario form div {
   margin: 10px; }

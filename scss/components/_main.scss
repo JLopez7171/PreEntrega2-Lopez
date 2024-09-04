@@ -1,3 +1,4 @@
+
 .carousel-caption h2{
     font-size: 45px;
 }
@@ -12,7 +13,7 @@
     height: auto
 }
 .productos h2{
-    background-color: #F7DCB9;
+    background-color: $color-primario;
     color: #000000;
     padding: 20px;
 }
@@ -53,7 +54,7 @@
 .catalogo{
     text-align: center;
     h2{
-        background-color: #F7DCB9;
+        background-color: $color-secundario;
         color: #000000;
         padding: 20px;
     }
@@ -123,7 +124,7 @@
     flex-direction: column;
     align-items: center;
     grid-area: menu;
-    background-color: #DEAC80;
+    background-color: $color-secundario;
     height: auto;
 }
 .bg-body-tertiary{
@@ -173,11 +174,7 @@
     height: 250px;
 }
 .productos-contenedor-guitarras div p a{
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #B5C18E;
-    font-size: 12px;
-    padding: 6px;
+    @extend %enlaces-productos
 }
 .productos-contenedor-guitarras div p a:hover{
     color: #6295A2;
@@ -202,7 +199,7 @@
     flex-direction: column;
     align-items: center;
     grid-area: menu;
-    background-color: #DEAC80;
+    background-color: $color-secundario;
     height: auto;
 }
 .bg-body-tertiary{
@@ -252,11 +249,7 @@
     height: 250px;
 }
 .productos-contenedor-teclados div p a{
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #B5C18E;
-    font-size: 12px;
-    padding: 6px;
+    @extend %enlaces-productos
 }
 .productos-contenedor-teclados div p a:hover{
     color: #6295A2;
@@ -281,7 +274,7 @@
     flex-direction: column;
     align-items: center;
     grid-area: menu;
-    background-color: #DEAC80;
+    background-color: $color-secundario;
     height: auto;
 }
 .bg-body-tertiary{
@@ -331,11 +324,7 @@
     height: 250px;
 }
 .productos-contenedor-percusion div p a{
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #B5C18E;
-    font-size: 12px;
-    padding: 6px;
+    @extend %enlaces-productos
 }
 .productos-contenedor-percusion div p a:hover{
     color: #6295A2;
@@ -344,16 +333,18 @@
 
 /*?---Pagina contacto---*/
 .hero-contacto{
+    background-color: #DEAC80;
     width: auto;
     text-align: center;
     align-items: center;
     height: auto
-}
-.hero-contacto h2{
-    color: #000000;
-    display: inline-block;
-    padding: 8px;
-    font-size: 30px;
+
+    h2{
+        color: #000000;
+        display: inline;
+        padding: 8px;
+        font-size: 30px;
+    }
 }
 .formulario form div{
     margin: 10px;
