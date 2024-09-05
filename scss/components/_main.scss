@@ -333,19 +333,49 @@
 
 /*?---Pagina contacto---*/
 .hero-contacto{
-    background-color: #DEAC80;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E1DA;
     width: auto;
     text-align: center;
     align-items: center;
-    height: auto
-
+    height: calc(100vh - 76px);
+    margin: 0;
     h2{
         color: #000000;
-        display: inline;
-        padding: 8px;
         font-size: 30px;
+        margin-bottom: 0;
+        margin: 20px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        form{
+            display: flex;
+            flex-direction: row;
+        }
     }
 }
-.formulario form div{
-    margin: 10px;
+.informacion-msg{
+    background-image: url("../../img/info-contacto.jpg");
+    height: 500px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 50%;
+        height: 100%;
+        margin-left: 10px;
+        h3{
+            font-size: 30px;
+        }
+        p{
+            width: 50%;
+            font-size: 16px;
+            width: auto;
+        }
+    }
 }

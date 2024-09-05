@@ -9,3 +9,10 @@ $color-secundario: #DEAC80;
     font-size: 12px;
     padding: 6px;
 }
+%footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-primario;
+    margin: 0;
+    bottom: 0;
+}

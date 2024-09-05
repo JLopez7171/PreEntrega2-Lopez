@@ -1,9 +1,9 @@
 /**!---FOOTER---**/
+.footer-contacto{
+    @extend %footer
+}
 .footer-instrumentos{
-    display: flex;
-    justify-content: space-around;
-    background-color: $color-primario;
-    margin: 0;
+    @extend %footer
 }
 footer{
     margin-top: 20px;
