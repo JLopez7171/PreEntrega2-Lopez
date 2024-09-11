@@ -5,7 +5,7 @@
   color: #ffffff;
   background-color: #B5C18E;
   font-size: 12px;
-  padding: 6px; }
+  padding: 8px; }
 
 .footer-contacto, .footer-instrumentos {
   display: flex;
@@ -155,17 +155,16 @@ header {
   grid-area: menu;
   background-color: #DEAC80;
   height: auto; }
+  .menu-productos nav ul li a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    padding: 6px 10px; }
 
 .bg-body-tertiary {
   background-color: #DEAC80 !important; }
-
-.menu-productos nav ul li a {
-  display: block;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #000000;
-  width: 100%;
-  padding: 6px 10px; }
 
 .sidebar-logo a {
   text-decoration: none;
@@ -185,26 +184,19 @@ header {
   align-items: end;
   flex-wrap: wrap;
   grid-area: productos; }
-
-.productos-contenedor-guitarras div {
-  margin: 20px;
-  border: 2px solid black;
-  width: 250px;
-  height: 350px;
-  background-color: #ffffff;
-  text-align: center; }
-
-.productos-contenedor-guitarras div h3 {
-  margin: 15px;
-  font-size: 15px; }
-
-.productos-contenedor-guitarras div img {
-  width: 100%;
-  height: 250px; }
-
-.productos-contenedor-guitarras div p a:hover {
-  color: #6295A2;
-  transition: all .1s; }
+  .productos-contenedor-guitarras div {
+    margin: 20px;
+    border: 2px solid black;
+    width: 250px;
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center; }
+    .productos-contenedor-guitarras div h3 {
+      margin: 15px;
+      font-size: 15px; }
+    .productos-contenedor-guitarras div img {
+      width: 100%;
+      height: 250px; }
 
 /*!---Página teclados---*/
 .contenedor-grilla-teclados {
@@ -220,17 +212,16 @@ header {
   grid-area: menu;
   background-color: #DEAC80;
   height: auto; }
+  .menu-productos nav ul li a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    padding: 6px 10px; }
 
 .bg-body-tertiary {
   background-color: #DEAC80 !important; }
-
-.menu-productos nav ul li a {
-  display: block;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #000000;
-  width: 100%;
-  padding: 6px 10px; }
 
 .sidebar-logo a {
   text-decoration: none;
@@ -250,26 +241,19 @@ header {
   align-items: end;
   flex-wrap: wrap;
   grid-area: productos; }
-
-.productos-contenedor-teclados div {
-  margin: 20px;
-  border: 2px solid black;
-  width: 250px;
-  height: 350px;
-  background-color: #ffffff;
-  text-align: center; }
-
-.productos-contenedor-teclados div h3 {
-  margin: 15px;
-  font-size: 15px; }
-
-.productos-contenedor-teclados div img {
-  width: 100%;
-  height: 250px; }
-
-.productos-contenedor-teclados div p a:hover {
-  color: #6295A2;
-  transition: all .1s; }
+  .productos-contenedor-teclados div {
+    margin: 20px;
+    border: 2px solid black;
+    width: 250px;
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center; }
+    .productos-contenedor-teclados div h3 {
+      margin: 15px;
+      font-size: 15px; }
+    .productos-contenedor-teclados div img {
+      width: 100%;
+      height: 250px; }
 
 /*---Pagina percusion---*/
 .contenedor-grilla-percusion {
@@ -285,17 +269,16 @@ header {
   grid-area: menu;
   background-color: #DEAC80;
   height: auto; }
+  .menu-productos nav ul li a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    padding: 6px 10px; }
 
 .bg-body-tertiary {
   background-color: #DEAC80 !important; }
-
-.menu-productos nav ul li a {
-  display: block;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #000000;
-  width: 100%;
-  padding: 6px 10px; }
 
 .sidebar-logo a {
   text-decoration: none;
@@ -315,26 +298,19 @@ header {
   align-items: end;
   flex-wrap: wrap;
   grid-area: productos; }
-
-.productos-contenedor-percusion div {
-  margin: 20px;
-  border: 2px solid black;
-  width: 250px;
-  height: 350px;
-  background-color: #ffffff;
-  text-align: center; }
-
-.productos-contenedor-percusion div h3 {
-  margin: 15px;
-  font-size: 15px; }
-
-.productos-contenedor-percusion div img {
-  width: 100%;
-  height: 250px; }
-
-.productos-contenedor-percusion div p a:hover {
-  color: #6295A2;
-  transition: all .1s; }
+  .productos-contenedor-percusion div {
+    margin: 20px;
+    border: 2px solid black;
+    width: 250px;
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center; }
+    .productos-contenedor-percusion div h3 {
+      margin: 15px;
+      font-size: 15px; }
+    .productos-contenedor-percusion div img {
+      width: 100%;
+      height: 250px; }
 
 /*?---Pagina contacto---*/
 .hero-contacto {
@@ -361,22 +337,31 @@ header {
       flex-direction: row; }
 
 .informacion-msg {
-  background-image: url("../../img/info-contacto.jpg");
-  height: 500px; }
+  height: 533px; }
   .informacion-msg div {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    width: 50%;
-    height: 100%;
-    margin-left: 10px; }
+    align-items: center; }
     .informacion-msg div h3 {
-      font-size: 30px; }
-    .informacion-msg div p {
-      width: 50%;
-      font-size: 16px;
-      width: auto; }
+      background-color: #F7DCB9;
+      font-size: 30px;
+      padding: 20px; }
+    .informacion-msg div div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px; }
+      .informacion-msg div div img {
+        width: 350px;
+        height: 350px; }
+      .informacion-msg div div p {
+        width: 45%;
+        font-size: 16px;
+        background-color: #B5C18E;
+        padding: 20px; }
 
 /**!---FOOTER---**/
 footer {
